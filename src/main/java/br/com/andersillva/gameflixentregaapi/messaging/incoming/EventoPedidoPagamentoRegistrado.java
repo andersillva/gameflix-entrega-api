@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.incoming;
+package br.com.andersillva.gameflixentregaapi.messaging.incoming;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -10,7 +10,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import br.com.andersillva.gameflixentregaapi.domain.service.EntregaService;
-import br.com.andersillva.gameflixentregaapi.messagebroker.incoming.dto.MensagemPedidoPagamentoRegistradoDTO;
+import br.com.andersillva.gameflixentregaapi.messaging.incoming.dto.MensagemPedidoPagamentoRegistradoDTO;
 
 @Component
 public class EventoPedidoPagamentoRegistrado {

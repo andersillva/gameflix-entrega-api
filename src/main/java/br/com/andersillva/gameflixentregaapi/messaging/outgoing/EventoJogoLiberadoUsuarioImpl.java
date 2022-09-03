@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.outgoing;
+package br.com.andersillva.gameflixentregaapi.messaging.outgoing;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -10,8 +10,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-import br.com.andersillva.gameflixentregaapi.messagebroker.outgoing.dto.MensagemJogoLiberadoUsuarioDTO;
-import br.com.andersillva.gameflixentregaapi.messagebroker.outgoing.exception.FalhaSerializacaoMensagemException;
+import br.com.andersillva.gameflixentregaapi.messaging.outgoing.dto.MensagemJogoLiberadoUsuarioDTO;
+import br.com.andersillva.gameflixentregaapi.messaging.outgoing.exception.FalhaSerializacaoMensagemException;
 
 @Component
 public class EventoJogoLiberadoUsuarioImpl implements EventoJogoLiberadoUsuario {

@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.incoming.dto;
+package br.com.andersillva.gameflixentregaapi.messaging.incoming.dto;
 
 import lombok.Data;
 

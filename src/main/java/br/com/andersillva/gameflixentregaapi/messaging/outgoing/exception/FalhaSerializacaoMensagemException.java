@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.outgoing.exception;
+package br.com.andersillva.gameflixentregaapi.messaging.outgoing.exception;
 
 public class FalhaSerializacaoMensagemException extends RuntimeException {
 

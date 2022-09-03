@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.andersillva.gameflixentregaapi.domain.dto.PedidoDTO;
-import br.com.andersillva.gameflixentregaapi.messagebroker.outgoing.EventoJogoLiberadoUsuario;
+import br.com.andersillva.gameflixentregaapi.messaging.outgoing.EventoJogoLiberadoUsuario;
 
 @Service
 public class EntregaServiceImpl implements EntregaService {

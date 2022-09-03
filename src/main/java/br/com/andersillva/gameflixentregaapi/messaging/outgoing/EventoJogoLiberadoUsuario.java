@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.outgoing;
+package br.com.andersillva.gameflixentregaapi.messaging.outgoing;
 
 public interface EventoJogoLiberadoUsuario {
 

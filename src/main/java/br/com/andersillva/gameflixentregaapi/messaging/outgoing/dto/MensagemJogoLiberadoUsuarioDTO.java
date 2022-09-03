@@ -1,4 +1,4 @@
-package br.com.andersillva.gameflixentregaapi.messagebroker.outgoing.dto;
+package br.com.andersillva.gameflixentregaapi.messaging.outgoing.dto;
 
 import java.util.ArrayList;
 import java.util.List;
