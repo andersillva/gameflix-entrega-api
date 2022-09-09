@@ -34,8 +34,8 @@ public class Liberacao {
 	@Column(name="id_jogo", nullable=false)
 	@NotNull
 	private Long idJogo;
-	@Column(name="nm_jogo", nullable=false)
 
+	@Column(name="nm_jogo", nullable=false)
 	@NotEmpty
 	private String nome;
 
