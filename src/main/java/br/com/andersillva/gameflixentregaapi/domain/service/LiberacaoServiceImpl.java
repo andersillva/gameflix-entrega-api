@@ -21,7 +21,7 @@ public class LiberacaoServiceImpl implements LiberacaoService {
 
 	@Override
 	public List<Liberacao> obterLiberacoes() {
-		var dataAtual = LocalDate.now(clock);
+		LocalDate dataAtual = LocalDate.now(clock);
 		return liberacaoRepository.obterLiberacoesPorData(dataAtual);
 	}
 

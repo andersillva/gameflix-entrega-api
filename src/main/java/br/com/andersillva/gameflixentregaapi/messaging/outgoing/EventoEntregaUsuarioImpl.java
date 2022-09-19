@@ -31,7 +31,7 @@ public class EventoEntregaUsuarioImpl implements EventoEntregaUsuario {
 	@Transactional(propagation=Propagation.MANDATORY)
 	public void gerarMensagem(Entrega entrega) {
 
-		var mensagemDTO = new MensagemJogoLiberadoUsuarioDTO(entrega);
+		MensagemJogoLiberadoUsuarioDTO mensagemDTO = new MensagemJogoLiberadoUsuarioDTO(entrega);
 		String mensagem;
 		try {
 			mensagem = objectMapper.writeValueAsString(mensagemDTO);
